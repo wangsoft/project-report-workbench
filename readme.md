@@ -58,6 +58,12 @@ Example projects cover UK electricity and synthetic retail reporting. Their inpu
 
 Report delivery also requires numerical, source-evidence, and visual validation.
 
+## CI and releases
+
+GitHub Actions runs shared tests on Python 3.10, 3.12, and 3.14 for pull requests and pushes to `main`. After tests pass on `main`, an unpublished `VERSION` is released with source archives and SHA-256 checksums. Existing published versions are left unchanged.
+
+To publish a new version, update `VERSION`, add `release-notes/v<VERSION>.md`, and merge to `main`. Retry interrupted releases with **Re-run failed jobs** on the original Actions run. **Run workflow** on `main` can also trigger validation and publication. Publishing uses the built-in `GITHUB_TOKEN`; no personal token is required. Example project versions are independent of the repository version.
+
 ## Documentation
 
 - [Detailed overview in Chinese](README.zh-CN.md)

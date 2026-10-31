@@ -236,3 +236,9 @@ project-report-workbench/
 详见 [学习协议、输入格式与命令](references/project-lifecycle.md)。当前执行适配器覆盖周期描述性项目；合成案例并非真实商业报告质量证明。正文断言不等于完整语义或视觉评分，仍需要针对目标业务的真实样本与专项验收。
 
 零售项目当前采用经验学习后的定制引擎，继续迭代使用 experience_loop；auto_tune 仅用于原始快速入口引擎，不会覆盖定制实现。本轮证据见 [经验学习验证](evals/experience-learning-validation.json)。
+
+## CI 与版本发布
+
+GitHub Actions 在 PR 和 main 推送时运行 Python 3.10、3.12、3.14 的通用测试。main 测试全部通过后，读取根目录 `VERSION`，为尚未发布的版本创建 GitHub Release，并上传源码 ZIP、tar.gz 和 SHA-256 校验文件。已发布版本不会被覆盖。
+
+发布新版时，更新 `VERSION` 并新增 `release-notes/v<版本号>.md`，合并到 main 即触发发布。中断后可在原 Actions 运行中选择 Re-run failed jobs，对同一提交重试；也可在 main 上通过 Run workflow 手动触发验证与发布。流程使用内置 `GITHUB_TOKEN`，无需配置个人令牌。仓库版本与示范项目自身版本相互独立。原始输入和运行产物不包含在发布包中。
