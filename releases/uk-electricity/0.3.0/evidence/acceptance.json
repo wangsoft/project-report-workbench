@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "failures": [],
+  "artifacts": {
+    "report.pdf": "1a52db144f74eb58acbb03da7566e042f6861f762dbfce606c63ef160fe17d9d",
+    "report.md": "8a7c7479c5e78b2365e68cfb69837f2233813bcc418778330aae638ad26989a2",
+    "evidence.json": "747666a24d94b3116ef69cc1dcce82deb7920d5ad5bcdb0ec67b9486403922ea",
+    "quality.json": "6ffca6ac36f6fe7f0f2b94ce60666d8e9498d23d7a7edc0c7048c4877fdca123",
+    "layout.json": "82d86ce4072e40707ce4bac91198b02dd9526b3739e7f43d440d145f52d44301",
+    "coverage.json": "04387b973ed3c50e76ff25b9b06cfef29c99fce3dd9c5ff14ec9b0ae19377cb8"
+  },
+  "topic_coverage": "all_sections_addressed",
+  "full_analyst_equivalence": "not_validated",
+  "source_reconciliation": "unresolved",
+  "visual_review": "pending",
+  "business_review": "pending"
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "project_id": "retail-monthly",
+  "title": "零售经营月报（合成验证案例）",
+  "audience": "经营负责人",
+  "scope": "descriptive_periodic",
+  "period_column": "month",
+  "entity_column": "region",
+  "periods": [
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04"
+  ],
+  "entities": [
+    "华东",
+    "华南"
+  ],
+  "metrics": [
+    {
+      "id": "revenue",
+      "column": "revenue",
+      "label": "收入",
+      "unit": "万元",
+      "aggregation": "sum",
+      "direction": "higher"
+    },
+    {
+      "id": "profit",
+      "column": "profit",
+      "label": "利润",
+      "unit": "万元",
+      "aggregation": "sum",
+      "direction": "higher"
+    },
+    {
+      "id": "orders",
+      "column": "orders",
+      "label": "订单",
+      "unit": "单",
+      "aggregation": "sum",
+      "direction": "higher"
+    }
+  ],
+  "questions": [
+    {
+      "id": "revenue-change",
+      "kind": "change",
+      "metric": "revenue",
+      "title": "收入如何变化？"
+    },
+    {
+      "id": "revenue-drivers",
+      "kind": "drivers",
+      "metric": "revenue",
+      "title": "收入变化由哪些区域贡献？"
+    },
+    {
+      "id": "revenue-exceptions",
+      "kind": "exceptions",
+      "metric": "revenue",
+      "title": "收入哪些区域与总体方向相反？"
+    },
+    {
+      "id": "profit-change",
+      "kind": "change",
+      "metric": "profit",
+      "title": "利润如何变化？"
+    },
+    {
+      "id": "profit-drivers",
+      "kind": "drivers",
+      "metric": "profit",
+      "title": "利润变化由哪些区域贡献？"
+    },
+    {
+      "id": "profit-exceptions",
+      "kind": "exceptions",
+      "metric": "profit",
+      "title": "利润哪些区域与总体方向相反？"
+    },
+    {
+      "id": "orders-change",
+      "kind": "change",
+      "metric": "orders",
+      "title": "订单如何变化？"
+    },
+    {
+      "id": "orders-drivers",
+      "kind": "drivers",
+      "metric": "orders",
+      "title": "订单变化由哪些区域贡献？"
+    },
+    {
+      "id": "orders-exceptions",
+      "kind": "exceptions",
+      "metric": "orders",
+      "title": "订单哪些区域与总体方向相反？"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "Selected rounded numerical statements on PDF pages 1-2; not whole-report equivalence or blind evaluation.",
+  "2023": [
+    ["UK Total", "current_gwh.total", 293, 1000, 0.5, 1],
+    ["UK Total", "growth_pct.total", -9.9, 1, 0.05, 1],
+    ["UK Total", "shares_pct.low_carbon", 60.3, 1, 0.05, 1],
+    ["England", "shares_pct.low_carbon", 57.2, 1, 0.05, 1],
+    ["Scotland", "shares_pct.low_carbon", 89.6, 1, 0.05, 1],
+    ["Wales", "shares_pct.low_carbon", 34, 1, 0.5, 1],
+    ["Northern Ireland", "shares_pct.low_carbon", 50.9, 1, 0.05, 1],
+    ["UK Total", "growth_pct.fossil", -20, 1, 0.5, 2],
+    ["UK Total", "current_gwh.nuclear", 40.6, 1000, 0.05, 2]
+  ],
+  "2024": [
+    ["UK Total", "current_gwh.total", 285, 1000, 0.5, 1],
+    ["UK Total", "growth_pct.total", -3.1, 1, 0.05, 1],
+    ["UK Total", "shares_pct.low_carbon", 64.7, 1, 0.05, 1],
+    ["England", "shares_pct.low_carbon", 62.6, 1, 0.05, 1],
+    ["Scotland", "shares_pct.low_carbon", 90.0, 1, 0.05, 1],
+    ["Wales", "shares_pct.low_carbon", 33.5, 1, 0.05, 1],
+    ["Northern Ireland", "shares_pct.low_carbon", 44.1, 1, 0.05, 1],
+    ["England", "growth_pct.total", -5.4, 1, 0.05, 1],
+    ["Scotland", "growth_pct.total", 7.7, 1, 0.05, 1],
+    ["Wales", "growth_pct.total", -6.7, 1, 0.05, 1],
+    ["Northern Ireland", "growth_pct.total", 4.1, 1, 0.05, 1],
+    ["UK Total", "growth_pct.fossil", -16, 1, 0.5, 1],
+    ["UK Total", "current_gwh.nuclear", 40.6, 1000, 0.05, 2],
+    ["UK Total", "growth_pct.renewables", 5.1, 1, 0.05, 2],
+    ["UK Total", "shares_pct.renewables", 50.4, 1, 0.05, 2]
+  ]
+}

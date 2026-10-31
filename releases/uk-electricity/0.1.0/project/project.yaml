@@ -1,0 +1,36 @@
+schema_version: 1
+project_id: uk-electricity
+version: "0.1.0"
+status: candidate
+inputs:
+  data: file
+  baseline: file
+  year: string
+resources:
+  - references/contract.json
+  - templates/style.json
+  - references/project-spec.md
+  - requirements.txt
+pipeline:
+  - id: normalize
+    script: scripts/normalize.py
+    args: [--data, "{input:data}", --year, "{input:year}", --out, "{run_dir}/normalized.json"]
+    outputs: [normalized.json]
+  - id: compute
+    script: scripts/compute.py
+    args: [--normalized, "{run_dir}/normalized.json", --baseline, "{input:baseline}", --out, "{run_dir}/evidence.json"]
+    outputs: [evidence.json]
+  - id: check
+    role: quality
+    script: scripts/quality.py
+    args: [--normalized, "{run_dir}/normalized.json", --evidence, "{run_dir}/evidence.json", --contract, "{project_dir}/references/contract.json", --baseline, "{input:baseline}", --out, "{run_dir}/quality.json"]
+    outputs: [quality.json]
+  - id: render
+    script: scripts/render_report.py
+    args: [--evidence, "{run_dir}/evidence.json", --style, "{project_dir}/templates/style.json", --out-dir, "{run_dir}"]
+    outputs: [report.pdf, report.md, layout.json]
+  - id: verify
+    role: quality
+    script: scripts/quality.py
+    args: [--verify-dir, "{run_dir}", --out, "{run_dir}/acceptance.json"]
+    outputs: [acceptance.json]

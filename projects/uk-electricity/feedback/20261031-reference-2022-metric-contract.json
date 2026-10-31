@@ -1,0 +1,15 @@
+{
+  "id": "20261031-reference-2022-metric-contract",
+  "created_at": "2026-10-31T09:46:39.276842+00:00",
+  "project_id": "uk-electricity",
+  "run_dir": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T093157-27160d72f692",
+  "project_version": "0.4.0",
+  "category": "analysis",
+  "observation": "Chart 3 使用低碳曲线替代可再生曲线；Chart 2 使用发电份额替代官方 supply 份额，语义覆盖不足。",
+  "proposed_action": "核实 Chart 2 供给定义；独立声明 Chart 3 可再生时序指标，逐图验证指标、时期和分母。",
+  "evidence_path": "target-reference-evaluation.json",
+  "evidence_sha256": "b2ff5ccada6688ebe276bf249cef789c7ff9ec30ca995316548b65dccbc24462",
+  "review_path": "/Users/leowang/projects/project-report-workbench/projects/uk-electricity/evals/cross-period-review-2022.md",
+  "target_version": "0.5.0",
+  "status": "proposed"
+}

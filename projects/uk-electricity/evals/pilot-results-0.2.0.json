@@ -1,0 +1,283 @@
+{
+  "status": "validated_for_factual_pilot",
+  "project_version": "0.2.0",
+  "runs": [
+    {
+      "run": "workspace/uk-electricity/20261031T084915-f0a3d1257c99",
+      "report": "workspace/uk-electricity/20261031T084915-f0a3d1257c99/report.pdf",
+      "quality": 207,
+      "reference_evaluation": {
+        "status": "passed",
+        "scope": "Selected rounded numerical statements on PDF pages 1-2; not whole-report equivalence or blind evaluation.",
+        "run": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T084915-f0a3d1257c99",
+        "reference_sha256": "b0e3799e9116af2909fbfeb77d6e81aa6ac768f501e6947f0020ba5cb897bd6b",
+        "checks": [
+          {
+            "region": "UK Total",
+            "field": "current_gwh.total",
+            "actual": 292.6819203,
+            "reference": 293,
+            "tolerance": 0.5,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "UK Total",
+            "field": "growth_pct.total",
+            "actual": -9.919613098548178,
+            "reference": -9.9,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "UK Total",
+            "field": "shares_pct.low_carbon",
+            "actual": 60.278597707423884,
+            "reference": 60.3,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "England",
+            "field": "shares_pct.low_carbon",
+            "actual": 57.227687589489776,
+            "reference": 57.2,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "Scotland",
+            "field": "shares_pct.low_carbon",
+            "actual": 89.56800576776878,
+            "reference": 89.6,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "Wales",
+            "field": "shares_pct.low_carbon",
+            "actual": 34.032355144933106,
+            "reference": 34,
+            "tolerance": 0.5,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "Northern Ireland",
+            "field": "shares_pct.low_carbon",
+            "actual": 50.90261995778651,
+            "reference": 50.9,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "UK Total",
+            "field": "growth_pct.fossil",
+            "actual": -19.845705072847007,
+            "reference": -20,
+            "tolerance": 0.5,
+            "page": 2,
+            "passed": true
+          },
+          {
+            "region": "UK Total",
+            "field": "current_gwh.nuclear",
+            "actual": 40.5961097,
+            "reference": 40.6,
+            "tolerance": 0.05,
+            "page": 2,
+            "passed": true
+          }
+        ],
+        "omitted": [
+          "trade",
+          "consumption",
+          "capacity",
+          "causal explanations",
+          "whole-series record claims"
+        ]
+      },
+      "visual_review": "workspace/uk-electricity/20261031T084915-f0a3d1257c99/visual-review.json",
+      "acceptance": "passed"
+    },
+    {
+      "run": "workspace/uk-electricity/20261031T084916-6cb28455572f",
+      "report": "workspace/uk-electricity/20261031T084916-6cb28455572f/report.pdf",
+      "quality": 207,
+      "reference_evaluation": {
+        "status": "passed",
+        "scope": "Selected rounded numerical statements on PDF pages 1-2; not whole-report equivalence or blind evaluation.",
+        "run": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T084916-6cb28455572f",
+        "reference_sha256": "1baf68ac25d98599baf10c2c8e401910327ea6a2a5b08da3211bdd5f62ee1916",
+        "checks": [
+          {
+            "region": "UK Total",
+            "field": "current_gwh.total",
+            "actual": 284.9562014,
+            "reference": 285,
+            "tolerance": 0.5,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "UK Total",
+            "field": "growth_pct.total",
+            "actual": -3.102007809983668,
+            "reference": -3.1,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "UK Total",
+            "field": "shares_pct.low_carbon",
+            "actual": 64.67503988140965,
+            "reference": 64.7,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "England",
+            "field": "shares_pct.low_carbon",
+            "actual": 62.605316592520445,
+            "reference": 62.6,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "Scotland",
+            "field": "shares_pct.low_carbon",
+            "actual": 90.00110161939233,
+            "reference": 90.0,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "Wales",
+            "field": "shares_pct.low_carbon",
+            "actual": 33.498170462684286,
+            "reference": 33.5,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "Northern Ireland",
+            "field": "shares_pct.low_carbon",
+            "actual": 44.07097187044449,
+            "reference": 44.1,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "England",
+            "field": "growth_pct.total",
+            "actual": -5.42203934402056,
+            "reference": -5.4,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "Scotland",
+            "field": "growth_pct.total",
+            "actual": 7.712228819863394,
+            "reference": 7.7,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "Wales",
+            "field": "growth_pct.total",
+            "actual": -6.650701682040831,
+            "reference": -6.7,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "Northern Ireland",
+            "field": "growth_pct.total",
+            "actual": 4.146883442581966,
+            "reference": 4.1,
+            "tolerance": 0.05,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "UK Total",
+            "field": "growth_pct.fossil",
+            "actual": -15.84054989814459,
+            "reference": -16,
+            "tolerance": 0.5,
+            "page": 1,
+            "passed": true
+          },
+          {
+            "region": "UK Total",
+            "field": "current_gwh.nuclear",
+            "actual": 40.5878448,
+            "reference": 40.6,
+            "tolerance": 0.05,
+            "page": 2,
+            "passed": true
+          },
+          {
+            "region": "UK Total",
+            "field": "growth_pct.renewables",
+            "actual": 5.0818915359543135,
+            "reference": 5.1,
+            "tolerance": 0.05,
+            "page": 2,
+            "passed": true
+          },
+          {
+            "region": "UK Total",
+            "field": "shares_pct.renewables",
+            "actual": 50.4315018918553,
+            "reference": 50.4,
+            "tolerance": 0.05,
+            "page": 2,
+            "passed": true
+          }
+        ],
+        "omitted": [
+          "trade",
+          "consumption",
+          "capacity",
+          "causal explanations",
+          "whole-series record claims"
+        ]
+      },
+      "visual_review": "workspace/uk-electricity/20261031T084916-6cb28455572f/visual-review.json",
+      "acceptance": "passed"
+    }
+  ],
+  "tests": {
+    "generic": 40,
+    "project": 14,
+    "archived_project": 14
+  },
+  "benchmark": "workspace/uk-electricity-benchmark-02/benchmark.json",
+  "regression": "projects/uk-electricity/evals/regression-0.2.0.json",
+  "active_version": "0.2.0",
+  "feedback_resolved": 2,
+  "limitations": [
+    "Cross-period replay, not blind holdout",
+    "Four-page factual subset, not full analyst report",
+    "Human business review pending",
+    "Historical cross-sheet conflicts excluded from five-year analysis; not resolved",
+    "Learning-period revision table is a same-vintage self-check",
+    "No PPTX or large-workbook memory validation"
+  ]
+}

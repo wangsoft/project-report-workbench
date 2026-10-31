@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "project_version": "0.3.0",
+  "release_manifest_sha256": "bc24c1c0d2bb12c9663ec7977f9a6f9187579cc89240242d0009b29def75aef4",
+  "tests": {
+    "generic": 40,
+    "project": 29,
+    "archived_project": 29
+  },
+  "source_run": "workspace/uk-electricity/20261031T091906-d13cddfc0136",
+  "active_replay": "workspace/uk-electricity/20261031T092131-c1fc18f2aa0c",
+  "pdf_byte_identical": true,
+  "evidence_byte_identical": true,
+  "benchmark": "workspace/uk-electricity-benchmark-04/benchmark.json",
+  "reference_evaluation": "workspace/uk-electricity/20261031T091906-d13cddfc0136/full-reference-evaluation.json",
+  "scope": "Topic coverage and executable correctness; source discrepancies and human business acceptance remain open."
+}

@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-31T10:13:27.301206+00:00",
+  "version": "0.5.0",
+  "status": "verified_implementation_candidate",
+  "tests": {
+    "generic": 51,
+    "project": 42
+  },
+  "runs": [
+    {
+      "run": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T101109-2ceec10771be",
+      "year": 2022,
+      "numeric": 745,
+      "semantic": "passed",
+      "visual": "passed",
+      "delivery_decision": "automated_checks_passed_pending_visual",
+      "remaining": "Full analyst replacement not established; 2024 source discrepancies block delivery"
+    },
+    {
+      "run": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T101116-34a713503054",
+      "year": 2024,
+      "numeric": 751,
+      "semantic": "passed",
+      "visual": "passed",
+      "delivery_decision": "blocked_source_disagreement",
+      "remaining": "Full analyst replacement not established; 2024 source discrepancies block delivery"
+    }
+  ],
+  "performance_median_seconds": {
+    "electricity-final-cold": 1.381071667012293,
+    "electricity-final-warm": 0.7316838330007158,
+    "bootstrap-report-cold": 0.33568833401659504,
+    "bootstrap-report-warm": 0.23296658298932016
+  },
+  "performance_scope": "Three repetitions; prepared data/context/templates; no model calls during periodic execution; excludes first-time mapping, research, development and visual review",
+  "cache_byte_equivalence": [
+    "evidence.json",
+    "semantics.json",
+    "report.pdf",
+    "business-report.pdf",
+    "audit-appendix.pdf"
+  ],
+  "frozen_backtest_unchanged": true,
+  "limitations": [
+    "Quick onboarding supports explicit additive periodic tables, not arbitrary business causality or forecasts",
+    "Both electricity years are replay regressions; no new held-out evaluation",
+    "HTML quickstart structure checked; browser visual review not performed",
+    "2024 source disagreements retained and delivery blocked"
+  ],
+  "archived_tests": 42,
+  "archive_replay_byte_equivalent": true,
+  "release_manifest_sha256": "a66dcd498d29d23b8b3b965a540540d6f7d804df0aeceb157bad8e71100440ec"
+}

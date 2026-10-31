@@ -1,0 +1,28 @@
+[
+  {
+    "episode": "/Users/leowang/projects/project-report-workbench/workspace/learning/retail-margin-01",
+    "proposal_sha256": "55ec511fab193cfda0e7afa095595b0e0ae7e7f4e258c1f14018d01228633b52",
+    "sources": [
+      {
+        "case_id": "development",
+        "locator": "synthetic reference, paragraph 1; independently authored test fixture",
+        "sha256": "42ec1f2e4f6f9893a44811ced95734b5bd4ba5e0e257e16938668b576299039a"
+      },
+      {
+        "case_id": "regression",
+        "locator": "synthetic reference, paragraph 1; independently authored test fixture",
+        "sha256": "474872312a212d507763404a2ec1d9cd78a83850d30eba79e2817cc7b9038983"
+      }
+    ],
+    "operations": [
+      {
+        "action": "create",
+        "rule_id": "joint-performance",
+        "evidence": [
+          "feb-joint-gap",
+          "mar-joint-gap"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+# Excel profiler runtime; CSV and metric_math need only Python's standard library.
+openpyxl>=3.1.2,<4
+# Project configuration runtime and skill frontmatter validation.
+PyYAML>=6,<7

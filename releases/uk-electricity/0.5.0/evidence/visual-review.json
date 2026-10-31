@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "reviewer": "same agent; not independent analyst evaluation",
+  "pages": 15,
+  "method": "Rendered all pages; 2022 unchanged pages compared to previously inspected render, changed pages inspected; 2024 all pages inspected",
+  "observations": [
+    "No clipping or text overlaps observed",
+    "Chart 3 renders renewable share; low-carbon series not substituted",
+    "Source explanations present next to fuel and renewable analysis"
+  ],
+  "artifacts": {
+    "report.pdf": "1b6c7fcb123de3b3ffc41ca29017cf0315ca92731cea6c2caa697f93d6a41eda",
+    "business-report.pdf": "236c23aa51249aaa7de2c65ff1d9f64a7b1efacde14f2c1baf4336f98862a3a3",
+    "audit-appendix.pdf": "903de643d394cfb3ea81e6267cd386853639373d47f09befbfe966d1d1096fdb"
+  },
+  "split_page_content_identity": true
+}

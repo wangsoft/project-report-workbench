@@ -1,0 +1,42 @@
+{
+  "verified_at": "2026-10-31T11:02:18.125940+00:00",
+  "status": "host_mediated_experience_learning_verified",
+  "tests": {
+    "generic": 77,
+    "electricity": 42,
+    "margin_edges": 5,
+    "skill_validation": "passed"
+  },
+  "learning_episode": "workspace/learning/retail-margin-01/result.json",
+  "reuse_episode": "workspace/learning/retail-margin-reuse-01/result.json",
+  "production_run": "workspace/retail-monthly/20261031T110057-f99e489fc8a6",
+  "active_release": {
+    "release": "/Users/leowang/projects/project-report-workbench/releases/retail-monthly/0.1.2",
+    "manifest_sha256": "9675b7be2a1509fd2762bc20b65d3e5827d74d89ad7929f60bf338b211cbc911",
+    "version": "0.1.2"
+  },
+  "demonstrated": [
+    "evidence-quoted loss attribution",
+    "create and compile project experience",
+    "three-period numeric and report assertions",
+    "archive and activate 0.1.2",
+    "production experience application trace",
+    "retrieve and reinforce existing experience",
+    "no_change when no new measured improvement"
+  ],
+  "limitations": [
+    "Synthetic reference reports, not real analyst benchmark",
+    "Current agent supplies comparison, proposals and code edits; CLI does not autonomously judge craft",
+    "Default evaluator supports periodic descriptive projects",
+    "Report text assertions are not general semantic or visual evaluation",
+    "Local execution is not sandboxed; replay is not a blind evaluation",
+    "Learning-phase retrieval is not generation-phase usage proof"
+  ],
+  "implementation_sha256": {
+    "scripts/experience_memory.py": "089361a5dcf5d7da8510f7bb36374f7ab1a3545f51454fa4f442346ad82e18f1",
+    "scripts/experience_loop.py": "ce0d80e45d64587433921edd43752b2635c2639a2bdc6ad2d1fc7c455384f6e4",
+    "scripts/tuning_evaluation.py": "2e870b2ae4ec41b4229f65aa2d8c53eced360a6dc86f7bd8a33f347197650276",
+    "tests/test_experience.py": "ab7c855ee9c55a26b11dd6ed712adcd387095bb9c0db788b78bd29a1c7706e3b",
+    "SKILL.md": "c5fac6067bdfff388dbc6a449676dffd98d7e3dd88f20665a865150a3bda108b"
+  }
+}

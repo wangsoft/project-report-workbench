@@ -1,0 +1,172 @@
+{
+  "scope": "Topic-level coverage, not verbatim/causal equivalence",
+  "reference_year": 2024,
+  "items": [
+    {
+      "id": "intro",
+      "topic": "摘要 / 官方 1",
+      "report_page": "1",
+      "report_pages": [
+        1
+      ],
+      "mode": "计算+范围",
+      "token": "摘要"
+    },
+    {
+      "id": "chart1",
+      "topic": "Chart 1 / 官方 2",
+      "report_page": "2",
+      "report_pages": [
+        2
+      ],
+      "mode": "脚本重绘",
+      "token": "Chart 1"
+    },
+    {
+      "id": "consumption",
+      "topic": "Chart 2、消费 / 官方 2–3",
+      "report_page": "3",
+      "report_pages": [
+        3
+      ],
+      "mode": "并列表+差额",
+      "token": "Chart 2"
+    },
+    {
+      "id": "trade",
+      "topic": "贸易 / 官方 3",
+      "report_page": "4",
+      "report_pages": [
+        4
+      ],
+      "mode": "净流量台账",
+      "token": "净流量"
+    },
+    {
+      "id": "appendixa",
+      "topic": "附录 A / 官方 10",
+      "report_page": "4",
+      "report_pages": [
+        4
+      ],
+      "mode": "平衡台账+残差",
+      "token": "Appendix A"
+    },
+    {
+      "id": "fuel",
+      "topic": "燃料与历史 / 官方 2–4",
+      "report_page": "5",
+      "report_pages": [
+        5
+      ],
+      "mode": "细分与极值",
+      "token": "燃料转换"
+    },
+    {
+      "id": "chart3",
+      "topic": "Chart 3 / 官方 4",
+      "report_page": "6",
+      "report_pages": [
+        6
+      ],
+      "mode": "低碳曲线+定义",
+      "token": "Chart 3"
+    },
+    {
+      "id": "chart4a",
+      "topic": "Chart 4 A/B / 官方 5",
+      "report_page": "7",
+      "report_pages": [
+        7
+      ],
+      "mode": "脚本重绘",
+      "token": "Chart 4"
+    },
+    {
+      "id": "chart4b",
+      "topic": "Chart 4 C/D / 官方 6",
+      "report_page": "8",
+      "report_pages": [
+        8
+      ],
+      "mode": "脚本重绘",
+      "token": "Chart 4"
+    },
+    {
+      "id": "chart5",
+      "topic": "Chart 5 / 官方 7",
+      "report_page": "9",
+      "report_pages": [
+        9
+      ],
+      "mode": "脚本重绘",
+      "token": "Chart 5"
+    },
+    {
+      "id": "renewables",
+      "topic": "技术分析 / 官方 7–8",
+      "report_page": "10",
+      "report_pages": [
+        10
+      ],
+      "mode": "计算与集中度",
+      "token": "集中度"
+    },
+    {
+      "id": "context",
+      "topic": "天气、装机、运营 / 官方 1–8",
+      "report_page": "11",
+      "report_pages": [
+        11
+      ],
+      "mode": "外部文献归属",
+      "token": "外部证据"
+    },
+    {
+      "id": "revisions",
+      "topic": "修订 / 官方 9",
+      "report_page": "12",
+      "report_pages": [
+        12
+      ],
+      "mode": "跨版本对账",
+      "token": "修订"
+    },
+    {
+      "id": "appendixb",
+      "topic": "附录 B / 官方 11",
+      "report_page": "13",
+      "report_pages": [
+        13
+      ],
+      "mode": "独立图件引用",
+      "token": "Appendix B"
+    },
+    {
+      "id": "history",
+      "topic": "政策与站点背景 / 官方 3–7",
+      "report_page": "14",
+      "report_pages": [
+        14
+      ],
+      "mode": "独立历史来源",
+      "token": "政策与电站"
+    },
+    {
+      "id": "sources",
+      "topic": "参考资料、版权 / 官方 8–9、12",
+      "report_page": "15",
+      "report_pages": [
+        15
+      ],
+      "mode": "来源与证据索引",
+      "token": "证据索引"
+    }
+  ],
+  "remaining_gaps": [
+    "No independent causal model for weather, price or policy effects",
+    "Source consumption inconsistencies unresolved",
+    "MPP map reused as dated external asset, not regenerated from station microdata",
+    "Not every individual station event or weather/capacity number has been independently reproduced; no causal equivalence claim"
+  ]
+}

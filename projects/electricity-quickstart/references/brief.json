@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "project_id": "electricity-quickstart",
+  "title": "区域电力变化与贡献",
+  "audience": "能源行业研究读者",
+  "scope": "descriptive_periodic",
+  "period_column": "year",
+  "entity_column": "region",
+  "periods": [
+    "2021",
+    "2022"
+  ],
+  "entities": [
+    "England",
+    "Scotland",
+    "Wales",
+    "Northern Ireland"
+  ],
+  "metrics": [
+    {
+      "id": "generation",
+      "column": "generation",
+      "label": "发电量",
+      "unit": "GWh",
+      "aggregation": "sum",
+      "direction": "neutral"
+    },
+    {
+      "id": "nuclear",
+      "column": "nuclear",
+      "label": "核电",
+      "unit": "GWh",
+      "aggregation": "sum",
+      "direction": "neutral"
+    },
+    {
+      "id": "renewables",
+      "column": "renewables",
+      "label": "可再生发电",
+      "unit": "GWh",
+      "aggregation": "sum",
+      "direction": "neutral"
+    }
+  ],
+  "questions": [
+    {
+      "id": "generation-change",
+      "metric": "generation",
+      "kind": "change",
+      "title": "总发电如何变化？"
+    },
+    {
+      "id": "generation-drivers",
+      "metric": "generation",
+      "kind": "drivers",
+      "title": "总发电变化主要来自哪些地区？"
+    },
+    {
+      "id": "generation-exceptions",
+      "metric": "generation",
+      "kind": "exceptions",
+      "title": "总发电哪些地区与总体方向相反？"
+    },
+    {
+      "id": "nuclear-change",
+      "metric": "nuclear",
+      "kind": "change",
+      "title": "核电如何变化？"
+    },
+    {
+      "id": "nuclear-drivers",
+      "metric": "nuclear",
+      "kind": "drivers",
+      "title": "核电变化主要来自哪些地区？"
+    },
+    {
+      "id": "nuclear-exceptions",
+      "metric": "nuclear",
+      "kind": "exceptions",
+      "title": "核电哪些地区与总体方向相反？"
+    },
+    {
+      "id": "renewables-change",
+      "metric": "renewables",
+      "kind": "change",
+      "title": "可再生发电如何变化？"
+    },
+    {
+      "id": "renewables-drivers",
+      "metric": "renewables",
+      "kind": "drivers",
+      "title": "可再生发电变化主要来自哪些地区？"
+    },
+    {
+      "id": "renewables-exceptions",
+      "metric": "renewables",
+      "kind": "exceptions",
+      "title": "可再生发电哪些地区与总体方向相反？"
+    }
+  ]
+}

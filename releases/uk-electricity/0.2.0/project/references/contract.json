@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "unit": "GWh",
+  "regions": ["UK Total", "England", "Scotland", "Wales", "Northern Ireland"],
+  "source_total_gap_gwh": 0.01,
+  "region_sum_gap_gwh": 0.05,
+  "numeric_tolerance": 0.000001,
+  "rationale": "Totals published to 4 decimals; some regional fuel aggregates to 2 decimals. Regional rounding tolerance is 0.05 GWh. Cross-table differences over 0.001 GWh are disclosed; up to 0.01 GWh (10 MWh, 1/1000 of displayed 0.01 TWh) is accepted for this descriptive report only, without claiming the source difference is resolved.",
+  "low_carbon": "(nuclear + renewables) / total * 100",
+  "growth": "(current / previous - 1) * 100, both from same release; undefined at zero baseline",
+  "residual": "total - fossil - nuclear - renewables; keep visible, do not silently label as renewable",
+  "scope": "Generation, fuel composition, regional differences, and cross-vintage revisions; excludes trade, consumption, emissions, causal drivers and forecasts."
+}

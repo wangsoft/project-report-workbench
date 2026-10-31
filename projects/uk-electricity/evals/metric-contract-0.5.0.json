@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "project_version": "0.5.0",
+  "release_manifest_sha256": "a66dcd498d29d23b8b3b965a540540d6f7d804df0aeceb157bad8e71100440ec",
+  "scope": "Chart 2 net supply definition and Chart 3 renewable series, including actual plotted data binding only",
+  "evidence": "/Users/leowang/projects/project-report-workbench/projects/uk-electricity/evals/regression-0.5.0.json",
+  "tests": [
+    "test_supply_is_net_of_own_use",
+    "test_renewable_curve_excludes_nuclear",
+    "test_report_missing_page_or_topic_rejected"
+  ],
+  "not_claimed": "Full report completeness or analyst equivalence"
+}

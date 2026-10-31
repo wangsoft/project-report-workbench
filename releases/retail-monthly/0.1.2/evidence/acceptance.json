@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "failures": [],
+  "artifacts": {
+    "report.md": "60f12072960e6a21808ee1f163b4aa6390d1b8e1c6a92ddc71725c23d4d3c9d6",
+    "report.html": "5a992659db6100984c3f4bc0a566b3549a5d950e9a8fec40f9416eba0f4dccf3",
+    "answers.json": "33489b6323798784ca9152b37b7534351352dc86793ee89d68b6f53472100b5d",
+    "evidence.json": "a363ee22325a32374d81a989c88ef09bf121cc8bfcb631d6e4fa7db3af2f82ac",
+    "experience-applied.json": "3120f1aaf3103aef619637f2b76243a67a4cdece2f6d0c2c6a65de65dbe243f2"
+  },
+  "experience_sha256": "74bcca06965af5c616a15a4721e0613368926dd5f962f25575271c303ea23283",
+  "proposal_sha256": "55ec511fab193cfda0e7afa095595b0e0ae7e7f4e258c1f14018d01228633b52",
+  "scope": "Frozen numeric, question and report assertions; not unrestricted professional/visual quality"
+}

@@ -1,0 +1,122 @@
+{
+  "checked_at_utc": "2026-10-31T09:21:59.918526+00:00",
+  "status": "validated_for_topic_coverage_candidate",
+  "checks": [
+    {
+      "check": "generic tests",
+      "passed": true,
+      "tests": 40
+    },
+    {
+      "check": "real-fixture project tests",
+      "passed": true,
+      "tests": 29
+    },
+    {
+      "check": "archived project tests",
+      "passed": true,
+      "tests": 29
+    },
+    {
+      "check": "active archive replay evidence/PDF byte equivalence",
+      "passed": true
+    },
+    {
+      "check": "skill-creator quick_validate",
+      "passed": true
+    },
+    {
+      "check": "relative Markdown links",
+      "passed": true,
+      "links": 54
+    },
+    {
+      "check": "AST / under 500 lines",
+      "passed": true,
+      "python_files": 24
+    }
+  ],
+  "pilot_results": "projects/uk-electricity/evals/pilot-results.json",
+  "reference_comparison_status": "61 of 63 consistent; 2 disclosed discrepancies",
+  "not_executed": [
+    "strict blind holdout",
+    "human analyst-quality acceptance",
+    "independent causal effect estimation",
+    "PPTX rendering",
+    "large-workbook memory testing",
+    "all individual official claims independently reproduced"
+  ],
+  "file_sha256": {
+    "SKILL.md": "56cc2ece279e4c806b076f1bd7efaccc71c8c67ce0c406f43ebe7cb939006144",
+    "agents/openai.yaml": "bc69529b2d91d264233f9f98f1794a6e1400e9aaf269dc8e67906bac1b9e44fa",
+    "config/requirements.txt": "69e13045fb1b2072a3b79f5b6313e7d44962f0d49ac36e111af82be3287f2f3c",
+    "projects/uk-electricity/project.yaml": "3041cb3c777933d03e902b415854a6ac20d2f703b4c33e7fe5c59d63ff509137",
+    "projects/uk-electricity/references/contract.json": "dd7dea5792984ece5a15e9e46919004fa00de898761b302910ef3a02b757dc58",
+    "projects/uk-electricity/references/coverage.json": "04387b973ed3c50e76ff25b9b06cfef29c99fce3dd9c5ff14ec9b0ae19377cb8",
+    "projects/uk-electricity/references/project-spec.md": "8a96af8238380178a7545e6b141057c4fa8a59f904e3a3ea2dc6f58de03c7e8e",
+    "projects/uk-electricity/requirements.txt": "0dee0038a406996907930a1b3226e6c285cd656ba02b548a2503f610de3d42c8",
+    "projects/uk-electricity/scripts/benchmark_pipeline.py": "04cfc40a20a4cc4e70497c11232dd407ad92c6b26d46bd88180d10c7cdb455e5",
+    "projects/uk-electricity/scripts/compute.py": "ddb0aeb52f3a982ce8985a452044a06698bd45bdf29a7c7849f40c7d48e52739",
+    "projects/uk-electricity/scripts/evaluate_full_reference.py": "941b88942f62bc0aae40b9c87de7c45cc0f2b39f535c9bf75671fce3e6008a95",
+    "projects/uk-electricity/scripts/evaluate_reference.py": "c638f368144ec66702b42b6f5981f91f6951c67391a6ccde7a35daa5ea4f29ad",
+    "projects/uk-electricity/scripts/full_compute.py": "cd7b5f938a972eba2383f37c238539362df0360afbf3cd5dcdce653b49d33e16",
+    "projects/uk-electricity/scripts/full_data.py": "c04ef322cc3dad7a15d6ff8407cb50251d7524c5feec72034ff909c345fe063c",
+    "projects/uk-electricity/scripts/full_quality.py": "dfc8d07c98e5a486312c7e4f6b1739c37eff319678e346a0af30133253f5de38",
+    "projects/uk-electricity/scripts/full_report.py": "b1318a3874fe835253f001e042532a905b7275f2888bac4d58b4310abd04bd6d",
+    "projects/uk-electricity/scripts/normalize.py": "4c6e1137edb2e937fffb83cfb6c7245e8cba6afea05ab7857d3ad10a72b507de",
+    "projects/uk-electricity/scripts/quality.py": "c7b251db4b033bbc47dccb7fecea8b9a0953c5ccb50d5f80c1e3ad891df9a4a0",
+    "projects/uk-electricity/scripts/render_report.py": "d1ceabc45f8b2dc46b9b9acb72d92745697f9f1c9b1efc124c756b8013d32fea",
+    "projects/uk-electricity/scripts/report_canvas.py": "4dcf09296134f79167878288b6d2dbd7312cb26b5bdc97b33a44f6c862e23906",
+    "projects/uk-electricity/templates/style.json": "f8f56d7152cc348db7af29c7cfe9eff772a191f835d6bc9391bfe6c2201bf552",
+    "projects/uk-electricity/tests/test_electricity.py": "3c62c55a0e1006911cd7d25e042df4d65eb0b6bef5ad7546e5f23002c6d565e7",
+    "projects/uk-electricity/tests/test_full_report.py": "d003d5df28151a08964c113ad6991e772e6c1828733d449cbb4852f56363c7b6",
+    "readme.md": "91e603f16987e206b1dce2742e696023b6f9e420e5ad5cf987344e78fe3051ce",
+    "references/analysis-synthesis.md": "531949875744b5ff09ce4c28432d3a808d0c9a278ebeb797aba4fb2cf1a9d749",
+    "references/contracts.md": "8a215f80b83ad819bb24d420b29eec2d5d67e53bc1d2057c4a83c17dcd7a78ba",
+    "references/data-processing.md": "082c0e013a3bb3737045eca7a6e4a1214beb5836594990bca65bc1498f39dad7",
+    "references/deliverables.md": "e6ee96212ebdf9be103327659ec9d7c40b1bc34a633602aa35387579d8be20b9",
+    "references/evaluation.md": "8c4977e98ea8fc7080ee8b9bbd92e20b987884a08e1193ea93e3e180f24599eb",
+    "references/execution-performance.md": "e73786215aa88425c4a30993b8ba732de6abbb2d12b375c04e1ca96fa5a8759d",
+    "references/methods.md": "0d1919607be03a5e0f54ac5cc44333d8a2ebdc6de9394a66c903d0834706e61b",
+    "references/project-lifecycle.md": "f8980156ed22e285fc7621dcae7f9c9b1938f4bf56c8b6f9cd3bfc3fa0ee8511",
+    "references/project-workflow.md": "f75a70eb9286fbe1809fcfe08c0ad7444ea7f56b303691943d0f6a9c641dcaa8",
+    "references/report-workflow.md": "a4deaf663203428b04787ddfb8f2e3b17d68329460db19daace41f4a2aa38675",
+    "references/sense-nova-license.txt": "5da3c0d8e8e95dc7ae32685dee8c6dc969d0a80399c1964a1eb7b45de6a52f87",
+    "references/sources.md": "3f41119e40806d5a72a56b6bd8574f905f7c122911697c034a24350b3524f30f",
+    "references/visual-reverse-engineering.md": "0fb733eab46116b31135e1f9e765187bad6a13f41f8384c17980dea2c82adc53",
+    "scripts/benchmark_command.py": "4ed99188cf4c68cfa1bb228c61c713b5c42eefe072684a7353b02b8eaea93362",
+    "scripts/metric_math.py": "3ba2fdbcbfe6322da7274d35a69825cfa5a9e45a24ae8df998bfc7735a1fb57e",
+    "scripts/profile_table.py": "9124293eb6aa6bd3adfe083869eef3d30577e8bb185929bbf66a3a611dbb516b",
+    "scripts/project_manager.py": "12782af85fce6d823049778a079b0781e67cfbff7ea7c2ccc4c3685c61ef32b5",
+    "scripts/project_versions.py": "1515a294cac608bb945176682436e1a20e111971584dff90167fdba0b7039c1b",
+    "scripts/stage_cache.py": "2b5bb375d08b7617e5096b2e5d4278d362f29a93d9559c9f0be286d682ff181f",
+    "tests/test_benchmark.py": "3e33315c82c13ad4334514be843322d9514182212274cf457c07ebff36febf55",
+    "tests/test_cache_versions.py": "db0429c77dc2201176354bad43815ca302cee08dd3b0204184a74e0d7af195b1",
+    "tests/test_helpers.py": "2a08befb82da08f3a5ea03c1604d210b51e337e221a13a1efa2f96df5be57423",
+    "tests/test_projects.py": "3d1ac146ac558bfee19729a61ddc8c8a14fab167ec0eca7d728490c6c538ce3b"
+  },
+  "latest_iteration": {
+    "feature": "host_mediated_experience_learning",
+    "evidence": "evals/experience-learning-validation.json",
+    "generic_tests": 77,
+    "project_tests": 42,
+    "margin_tests": 5,
+    "status": "engineering_verified_synthetic_business_fixture"
+  },
+  "iteration_history": [
+    {
+      "version": "0.5.0",
+      "evidence": "projects/uk-electricity/evals/regression-0.5.0.json",
+      "generic_tests": 51,
+      "project_tests": 42,
+      "status": "implementation_verified_not_full_analyst_replacement"
+    },
+    {
+      "feature": "bounded_auto_tuning",
+      "evidence": "evals/auto-tuning-validation.json",
+      "generic_tests": 65,
+      "project_tests": 42,
+      "status": "engineering_verified_synthetic_business_fixture"
+    }
+  ]
+}

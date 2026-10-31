@@ -1,0 +1,14 @@
+{
+  "id": "20261031T092112-8ef65c85c6",
+  "created_at": "2026-10-31T09:21:12.447337+00:00",
+  "project_id": "uk-electricity",
+  "run_dir": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T084916-6cb28455572f",
+  "project_version": "0.2.0",
+  "category": "analysis",
+  "observation": "四页事实版未经确认缩小了官方报告范围，遗漏消费、贸易、技术细分与外部背景",
+  "proposed_action": "按逐页覆盖契约扩展全部主题；分别验证计算、官方对照和未解决差异，不宣称完整分析师等价",
+  "evidence_path": "report.pdf",
+  "evidence_sha256": "d99a2d7d15633265feac6394497fc8b9a776de584b9ce360fac65b3db5e895a2",
+  "target_version": "0.3.0",
+  "status": "proposed"
+}

@@ -1,0 +1,8 @@
+{
+  "feedback_id": "20261031-reference-2022-metric-contract",
+  "status": "resolved",
+  "release": "/Users/leowang/projects/project-report-workbench/releases/uk-electricity/0.5.0",
+  "regression": "/Users/leowang/projects/project-report-workbench/projects/uk-electricity/evals/metric-contract-0.5.0.json",
+  "regression_sha256": "b615c3453cfb72c734ef8f0c072ba31ebb660fc2342b336dfed442438b1cf1d6",
+  "original_sha256": "54c942ac8c9cab7e85c2fd29dc756985be566e7c789f72cb33a594f9bf55f1a6"
+}

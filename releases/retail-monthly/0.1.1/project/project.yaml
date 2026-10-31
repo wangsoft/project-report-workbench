@@ -1,0 +1,73 @@
+schema_version: 1
+project_id: retail-monthly
+version: 0.1.1
+status: candidate
+inputs:
+  data: file
+  period: string
+resources:
+- references/brief.json
+pipeline:
+- id: analyze
+  script: scripts/periodic_analysis.py
+  args:
+  - analyze
+  - --spec
+  - '{project_dir}/references/brief.json'
+  - --data
+  - '{input:data}'
+  - --period
+  - '{input:period}'
+  - --out
+  - '{run_dir}'
+  outputs:
+  - evidence.json
+  cache:
+    inputs:
+    - data
+    - period
+    resources:
+    - references/brief.json
+    artifacts: []
+    packages:
+    - openpyxl
+- id: render
+  script: scripts/periodic_analysis.py
+  args:
+  - render
+  - --spec
+  - '{project_dir}/references/brief.json'
+  - --data
+  - '{input:data}'
+  - --period
+  - '{input:period}'
+  - --out
+  - '{run_dir}'
+  outputs:
+  - report.md
+  - report.html
+  - answers.json
+  cache:
+    inputs:
+    - data
+    - period
+    resources:
+    - references/brief.json
+    artifacts:
+    - evidence.json
+    packages: []
+- id: verify
+  script: scripts/periodic_analysis.py
+  args:
+  - verify
+  - --spec
+  - '{project_dir}/references/brief.json'
+  - --data
+  - '{input:data}'
+  - --period
+  - '{input:period}'
+  - --out
+  - '{run_dir}'
+  outputs:
+  - delivery.json
+  role: quality

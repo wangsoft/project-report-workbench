@@ -1,0 +1,14 @@
+{
+  "id": "20261031T084546-860323f924",
+  "created_at": "2026-10-31T08:45:46.299726+00:00",
+  "project_id": "uk-electricity",
+  "run_dir": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T084527-c2a18ca49463",
+  "project_version": "0.1.0",
+  "category": "performance",
+  "observation": "数据和模板不变时，全部五个阶段重复执行。",
+  "proposed_action": "仅缓存明确声明依赖的 normalize、compute、render；check、verify 始终执行，验证冷/热/变更行为。",
+  "evidence_path": "run_state.json",
+  "evidence_sha256": "b23838601cb0aa2f29aeb037aee8f880dd5f0e02e4f3b7aa5aa8ab9c03745149",
+  "target_version": "0.2.0",
+  "status": "proposed"
+}

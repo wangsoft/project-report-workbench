@@ -1,0 +1,15 @@
+{
+  "id": "20261031-reference-2022-regional-narrative",
+  "created_at": "2026-10-31T09:46:39.277283+00:00",
+  "project_id": "uk-electricity",
+  "run_dir": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T093157-27160d72f692",
+  "project_version": "0.4.0",
+  "category": "analysis",
+  "observation": "生成稿缺少苏格兰核电 -45% 与英格兰 +27% 的显著对比；具体风电项目及天气量化证据不足。",
+  "proposed_action": "基于已核实同期来源补充区域差异与解释，明确事实、背景和未识别因果关系。",
+  "evidence_path": "target-reference-evaluation.json",
+  "evidence_sha256": "b2ff5ccada6688ebe276bf249cef789c7ff9ec30ca995316548b65dccbc24462",
+  "review_path": "/Users/leowang/projects/project-report-workbench/projects/uk-electricity/evals/cross-period-review-2022.md",
+  "target_version": "0.5.0",
+  "status": "proposed"
+}

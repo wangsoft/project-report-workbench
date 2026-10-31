@@ -1,0 +1,20 @@
+{
+  "status": "passed_for_layout",
+  "reviewer": "agent",
+  "method": "Poppler rasterization and visual inspection of all four pages",
+  "checks": [
+    "Chinese glyphs visible",
+    "no visible clipping or overlap",
+    "chart legends and axes visible",
+    "table alignment and page order checked"
+  ],
+  "report_sha256": "d99a2d7d15633265feac6394497fc8b9a776de584b9ce360fac65b3db5e895a2",
+  "pages": {
+    "page-1.png": "088a3e73b178e7cc0e99e88179c44792d56adf24af4cbfe50a73a257ff9e0c4b",
+    "page-3.png": "61700eb594277b9842116f6925bb19e618a89b55a31e3c84723934ec45497dc5",
+    "page-2.png": "04406d115caeac909a1f17ab77f003bdc0414ffa0fcbe542cfc6f3db25a42b17",
+    "page-4.png": "6d5a7843fc0ba4178c6538fb4f84c88fc5019a3e02026c0d33c7594fa5ff9a60"
+  },
+  "business_review": "pending",
+  "limitation": "Not a full reproduction of the official twelve-page report. Training-period revision table is a same-vintage self-check."
+}

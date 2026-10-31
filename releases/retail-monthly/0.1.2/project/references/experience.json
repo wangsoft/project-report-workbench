@@ -1,0 +1,19 @@
+[
+  {
+    "id": "joint-performance",
+    "description": "收入与利润定义、币种、期间和实体覆盖一致时，综合规模和利润率。",
+    "exclude": "口径不可比、币种不一致；收入非正时不解释利润率；不能用于识别经营原因。",
+    "scope": "project",
+    "body": "先比较收入与利润的变化方向，再用总利润除以总收入计算利润率，禁止平均地区利润率。基期与本期分别计算后，以百分点描述差值。同向变化也要分析利润率。收入为零或负数时明确不可解释；不把数值关系写成成本、价格或结构的因果解释。",
+    "tags": [
+      "revenue",
+      "profit",
+      "margin"
+    ],
+    "evidence": [
+      "feb-joint-gap",
+      "mar-joint-gap"
+    ],
+    "implementation": "scripts/periodic_analysis.py:joint_insight"
+  }
+]

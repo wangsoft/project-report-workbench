@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "project_id": "uk-electricity",
+  "version": "0.1.0",
+  "status": "validated_for_scope",
+  "scope": "UK electricity 2024 descriptive four-page PDF; executable numeric and file checks; human business review pending",
+  "created_at": "2026-10-31T08:45:46.142891+00:00",
+  "source_run": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T084527-c2a18ca49463",
+  "source_inputs": {
+    "/Users/leowang/projects/project-report-workbench/workspace/public-fixtures/uk-electricity/2025-release/data.xlsx": "5725c62c92de05cd35f4876eb7f21c65ab5c25ac08c2275e2b190416a24c3032",
+    "/Users/leowang/projects/project-report-workbench/workspace/public-fixtures/uk-electricity/2024-release/normalized.json": "a3cb93050d748b101a726f657289ac003b9fe6e28ce6ec34852a25ac1826477e"
+  },
+  "interpreter": [
+    "/Users/leowang/projects/project-report-workbench/.venv/bin/python",
+    "3.12.12 (main, Jan 15 2026, 09:09:06) [Clang 17.0.0 (clang-1700.6.3.2)]"
+  ],
+  "file_sha256": {
+    "evidence/acceptance.json": "fa14b3dbafa1101499fba8c559695e4241bf0ccf1cba95e85146168e165a4dde",
+    "evidence/quality.json": "ee0cb618b7f373e866010a39295cb2c7d7950f79cb0015840e0e480efaeb94b2",
+    "project/project.yaml": "2f6a0b000b46f1100b767a2ce86423064be3116953e7407bc26fe8f5117cddc1",
+    "project/requirements.txt": "0dee0038a406996907930a1b3226e6c285cd656ba02b548a2503f610de3d42c8",
+    "runtime/config/requirements.txt": "69e13045fb1b2072a3b79f5b6313e7d44962f0d49ac36e111af82be3287f2f3c",
+    "runtime/scripts/stage_cache.py": "2b5bb375d08b7617e5096b2e5d4278d362f29a93d9559c9f0be286d682ff181f",
+    "runtime/scripts/metric_math.py": "3ba2fdbcbfe6322da7274d35a69825cfa5a9e45a24ae8df998bfc7735a1fb57e",
+    "runtime/scripts/project_manager.py": "12782af85fce6d823049778a079b0781e67cfbff7ea7c2ccc4c3685c61ef32b5",
+    "runtime/scripts/project_versions.py": "1515a294cac608bb945176682436e1a20e111971584dff90167fdba0b7039c1b",
+    "runtime/scripts/profile_table.py": "9124293eb6aa6bd3adfe083869eef3d30577e8bb185929bbf66a3a611dbb516b",
+    "runtime/scripts/benchmark_command.py": "4ed99188cf4c68cfa1bb228c61c713b5c42eefe072684a7353b02b8eaea93362",
+    "project/references/project-spec.md": "1d03cba00bd5b1dc1ca4d98f010c5e7376f6757574379163da45d5e6015954d3",
+    "project/references/contract.json": "dd7dea5792984ece5a15e9e46919004fa00de898761b302910ef3a02b757dc58",
+    "project/tests/test_electricity.py": "7e5b6325a2fdf28f61e1f6da7f3b4091cb359d165b6eca2c1e9e65f3382d382a",
+    "project/scripts/normalize.py": "4c6e1137edb2e937fffb83cfb6c7245e8cba6afea05ab7857d3ad10a72b507de",
+    "project/scripts/render_report.py": "23c3fd3d947593b4b6c8608803689f1b16132b4381a56b09b5dfaf30f8970a54",
+    "project/scripts/quality.py": "51df8a71bcb345d05e9781115ed42952156cc69318135abb9865c3259589b8b9",
+    "project/scripts/compute.py": "ddb0aeb52f3a982ce8985a452044a06698bd45bdf29a7c7849f40c7d48e52739",
+    "project/templates/style.json": "f8f56d7152cc348db7af29c7cfe9eff772a191f835d6bc9391bfe6c2201bf552"
+  },
+  "limitation": "Scope is supplied by the maintainer; no automated human-quality certification. Inputs and full environment are not bundled."
+}

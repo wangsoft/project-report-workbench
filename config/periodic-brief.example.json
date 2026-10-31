@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "project_id": "sales",
+  "title": "销售分析",
+  "audience": "经营负责人",
+  "scope": "descriptive_periodic",
+  "period_column": "month",
+  "entity_column": "region",
+  "periods": [
+    "2026-01",
+    "2026-02"
+  ],
+  "entities": [
+    "A",
+    "B"
+  ],
+  "metrics": [
+    {
+      "id": "revenue",
+      "column": "amount",
+      "label": "收入",
+      "unit": "元",
+      "aggregation": "sum",
+      "direction": "higher"
+    }
+  ],
+  "questions": [
+    {
+      "id": "change",
+      "kind": "change",
+      "metric": "revenue",
+      "title": "收入如何变化？"
+    },
+    {
+      "id": "drivers",
+      "kind": "drivers",
+      "metric": "revenue",
+      "title": "增长来自哪里？"
+    },
+    {
+      "id": "exceptions",
+      "kind": "exceptions",
+      "metric": "revenue",
+      "title": "哪些地区逆势？"
+    }
+  ]
+}

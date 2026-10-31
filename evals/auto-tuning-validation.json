@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-10-31T10:48:12.435476+00:00",
+  "status": "bounded_auto_tuning_verified",
+  "tests": {
+    "generic": 65,
+    "electricity": 42,
+    "skill_validation": "passed"
+  },
+  "promotion_episode": "workspace/tuning/tune-20261031T104100-093718bb/result.json",
+  "repeat_episode": "workspace/tuning/tune-20261031T104738-e1a79143/result.json",
+  "production_run": "workspace/retail-monthly/20261031T104739-60a18d1feea5",
+  "active_release": {
+    "release": "/Users/leowang/projects/project-report-workbench/releases/retail-monthly/0.1.1",
+    "manifest_sha256": "95a7655dea505491030109e9002cf285b119a0649e869bccbf0ad499fe32ac06",
+    "version": "0.1.1"
+  },
+  "answered_questions": 9,
+  "source_type": "synthetic retail fixture",
+  "limitations": [
+    "Only add_required_questions repair operator",
+    "Not a blind business benchmark",
+    "No causal inference or visual quality certification",
+    "Unknown engines and metrics require an adapter"
+  ],
+  "implementation_hashes": {
+    "scripts/auto_tune.py": "6fe85e975392a202bea1cee514fa1edf17ea901df5958e297ee95a9c3731345b",
+    "scripts/tuning_evaluation.py": "b5a5496462c222d8e2223864d323e06846d6e950731d8a19f6e19e0ed087f3df",
+    "tests/test_auto_tune.py": "81810bfd07d494deefa7a74092ff8834937085d16e06751f754da0904ee12a78"
+  }
+}

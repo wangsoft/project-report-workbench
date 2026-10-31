@@ -1,0 +1,15 @@
+{
+  "id": "20261031-reference-2022-editorial",
+  "created_at": "2026-10-31T09:46:39.277481+00:00",
+  "project_id": "uk-electricity",
+  "run_dir": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T093157-27160d72f692",
+  "project_version": "0.4.0",
+  "category": "analysis",
+  "observation": "生成稿审计说明较多、摘要重点不突出、流量台账缺少官方流向图的直观性。",
+  "proposed_action": "把审计台账移入附件；摘要突出关键异常，重新评审配色层级、图表用途和正文可读性。",
+  "evidence_path": "target-reference-evaluation.json",
+  "evidence_sha256": "b2ff5ccada6688ebe276bf249cef789c7ff9ec30ca995316548b65dccbc24462",
+  "review_path": "/Users/leowang/projects/project-report-workbench/projects/uk-electricity/evals/cross-period-review-2022.md",
+  "target_version": "0.5.0",
+  "status": "proposed"
+}

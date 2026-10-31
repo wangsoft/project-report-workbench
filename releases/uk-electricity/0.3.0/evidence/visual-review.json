@@ -1,0 +1,32 @@
+{
+  "status": "passed_for_layout",
+  "reviewer": "agent",
+  "method": "Poppler rasterization; inspected all 15 pages in contact sheets, enlarged pages 4, 7 and 15",
+  "checks": [
+    "Chinese glyphs and symbols readable",
+    "no clipping or overlap",
+    "consistent fuel colors",
+    "chart legends, units and labels visible",
+    "map attribution retained",
+    "coverage index matches page order"
+  ],
+  "report_sha256": "1a52db144f74eb58acbb03da7566e042f6861f762dbfce606c63ef160fe17d9d",
+  "page_sha256": {
+    "page-15.png": "d3dde5b146ee910b2340e5f24be5a35cb7e8dfb7114401b187eea6b44b3853b6",
+    "page-01.png": "357e1a73ed85a489432f0da284943732d7ecc5589fff65d139fb7c07faf8ecbd",
+    "page-14.png": "777c2f4b4b6bd6e4c12f58096ab6ab8fe45cf74b6983499ddb45f4f62f3320a7",
+    "page-02.png": "32a592829c34e76d7f2e760e47ab14ce910df14ff44066c079df5a2d665e4ec3",
+    "page-03.png": "6a43b3a37c0295acedc5209563fb52311ea32783df6a5af00988e2cedcb29cf2",
+    "page-07.png": "b762085dc131ff26fb03b01aea635e63c972d6851c537a2070203b2bc734953a",
+    "page-13.png": "69722b60638450feac96856e2c257a1332ab4062464fb451f98519567635f560",
+    "page-12.png": "00e3f9d3e2b1707bd53aa4b058e3f4641976883aacc59d47590524764ff60d3e",
+    "page-06.png": "67977e39a4485d87e3e063eb66a5f542f2b0dd342dae1dbdd863e32b27572f74",
+    "page-10.png": "311c111a7b72ec96d1474326655920a6a6a807b683b84bc04ef9347d5463132c",
+    "page-04.png": "598f9852f2232362d28f8b256d48fa0a2f7567cd2a48453432411969ac5cf45a",
+    "page-05.png": "311ac36adc26935c4f3f1451edaa96bc17c751553ff47635a8eb2a576d98fc57",
+    "page-11.png": "4a18dfab16c8b505380f6597a69a746630d9a2056466bf676ffa85592703d366",
+    "page-08.png": "1cb9c96792017e6f60680b4c1d3d0c308180629e1c987cfebe97137cbf0bfd66",
+    "page-09.png": "399ba08f7e1fd2dfa6834992f381a14aad53ddb22f5571cc4add7dcab35b1304"
+  },
+  "business_review": "pending"
+}

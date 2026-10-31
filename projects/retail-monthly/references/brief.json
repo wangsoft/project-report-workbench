@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "project_id": "retail-monthly",
+  "title": "零售经营月报（合成验证案例）",
+  "audience": "经营负责人",
+  "scope": "descriptive_periodic",
+  "period_column": "month",
+  "entity_column": "region",
+  "periods": [
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04"
+  ],
+  "entities": [
+    "华东",
+    "华南"
+  ],
+  "metrics": [
+    {
+      "id": "revenue",
+      "column": "revenue",
+      "label": "收入",
+      "unit": "万元",
+      "aggregation": "sum",
+      "direction": "higher"
+    },
+    {
+      "id": "profit",
+      "column": "profit",
+      "label": "利润",
+      "unit": "万元",
+      "aggregation": "sum",
+      "direction": "higher"
+    },
+    {
+      "id": "orders",
+      "column": "orders",
+      "label": "订单",
+      "unit": "单",
+      "aggregation": "sum",
+      "direction": "higher"
+    }
+  ],
+  "questions": [
+    {
+      "id": "revenue-change",
+      "kind": "change",
+      "metric": "revenue",
+      "title": "收入如何变化？"
+    }
+  ]
+}

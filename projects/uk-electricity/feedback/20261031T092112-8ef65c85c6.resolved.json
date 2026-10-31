@@ -1,0 +1,8 @@
+{
+  "feedback_id": "20261031T092112-8ef65c85c6",
+  "status": "resolved",
+  "release": "/Users/leowang/projects/project-report-workbench/releases/uk-electricity/0.3.0",
+  "regression": "/Users/leowang/projects/project-report-workbench/projects/uk-electricity/evals/regression-0.3.0.json",
+  "regression_sha256": "0ad6eef7e1a92eae5878bcd5fa4792fb6fea1b0f1360ac84c666f6213fb88df1",
+  "original_sha256": "5249c5124c956350acbc0f31bac9044bec844d89d6cc37bb1a24d894f365c1dd"
+}

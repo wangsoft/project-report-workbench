@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "project_id": "retail-monthly",
+  "version": "0.1.2",
+  "status": "validated_for_scope",
+  "scope": "Experience-guided adapter; all configured report assertions and numeric oracles passed. Host attribution is not causal proof.",
+  "created_at": "2026-10-31T10:57:24.477498+00:00",
+  "source_run": "/Users/leowang/projects/project-report-workbench/workspace/learning/retail-margin-01/candidate-results/holdout/runs/retail-monthly/20261031T105724-a333adcb96fa",
+  "source_inputs": {
+    "/Users/leowang/projects/project-report-workbench/workspace/business-tuning-case/2026-04.csv": "a5dbd87c450a8969b9211c168491ecbf7a40b3ca374fb54379ac07a5320bc396"
+  },
+  "interpreter": [
+    "/Users/leowang/projects/project-report-workbench/.venv/bin/python",
+    "3.12.12 (main, Jan 15 2026, 09:09:06) [Clang 17.0.0 (clang-1700.6.3.2)]"
+  ],
+  "file_sha256": {
+    "evidence/acceptance.json": "618817a4f094ee35d53078a16de87c93023d7dcbe6a3eb34b6c9aa47ffce200c",
+    "project/project.yaml": "d17ea45a5a408025e7353949d175adda7dd59f9aedc93c46820a7c3d9e53ac5c",
+    "runtime/config/requirements.txt": "69e13045fb1b2072a3b79f5b6313e7d44962f0d49ac36e111af82be3287f2f3c",
+    "runtime/scripts/experience_loop.py": "dfee4179c6e9e330c05ebd7291d2443a3afcab5806fa9a9091a5a529bbe9a0a5",
+    "runtime/scripts/auto_tune.py": "6fe85e975392a202bea1cee514fa1edf17ea901df5958e297ee95a9c3731345b",
+    "runtime/scripts/stage_cache.py": "2b5bb375d08b7617e5096b2e5d4278d362f29a93d9559c9f0be286d682ff181f",
+    "runtime/scripts/periodic_analysis.py": "a51b652e37a1b469140014ecaa2f4c65b46b1b74049914b0b6d8167d5bbaecf6",
+    "runtime/scripts/metric_math.py": "3ba2fdbcbfe6322da7274d35a69825cfa5a9e45a24ae8df998bfc7735a1fb57e",
+    "runtime/scripts/tuning_evaluation.py": "2e870b2ae4ec41b4229f65aa2d8c53eced360a6dc86f7bd8a33f347197650276",
+    "runtime/scripts/onboard_project.py": "7b1d9c8ea5e29c87adb6ae86b0a7986181208e613efadd31417220df762e3963",
+    "runtime/scripts/project_manager.py": "12782af85fce6d823049778a079b0781e67cfbff7ea7c2ccc4c3685c61ef32b5",
+    "runtime/scripts/project_versions.py": "1515a294cac608bb945176682436e1a20e111971584dff90167fdba0b7039c1b",
+    "runtime/scripts/experience_memory.py": "77961d8a635ef8bd5d04e391c9336d1e0fc3e9958a4e75287826fc5a0442b6da",
+    "runtime/scripts/profile_table.py": "9124293eb6aa6bd3adfe083869eef3d30577e8bb185929bbf66a3a611dbb516b",
+    "runtime/scripts/benchmark_command.py": "4ed99188cf4c68cfa1bb228c61c713b5c42eefe072684a7353b02b8eaea93362",
+    "project/references/brief.json": "c9349a7fa5e190fff4bd165e4688e8c1fa7ca064081e171e00095f3dae01f5d3",
+    "project/references/experience.json": "74bcca06965af5c616a15a4721e0613368926dd5f962f25575271c303ea23283",
+    "project/references/experience-history.json": "411714d3fb0b75b68c25890ca723cd450cedb9e8b440268402dc35c1f37d09d9",
+    "project/scripts/periodic_analysis.py": "06c714018316e4a5b04422382dd0d73352840f6bad51f40f6af33e4edc2950f4"
+  },
+  "limitation": "Scope is supplied by the maintainer; no automated human-quality certification. Inputs and full environment are not bundled."
+}

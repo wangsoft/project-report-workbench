@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "failures": [],
+  "scope": "automated numeric and PDF structural checks only",
+  "visual_review": "pending",
+  "business_review": "pending",
+  "artifacts": {
+    "evidence.json": "3940c54535e9d2ab73fbb4fe8c188b04a490637f1b56ba7ee4adca081f5a2066",
+    "report.md": "6bfae0cffd7e7441c05280c4a1a58c9a50a0bd54289b6b64ba5faaa135c345dc",
+    "quality.json": "6f682b064a9f0fce109ade13eff4029beca2606577d7864880deb73ee44b8a14",
+    "layout.json": "9c4817a39e8afdb9933c2ddc943ad43fa666f268d3bd831a63501b4a488ce824",
+    "report.pdf": "d99a2d7d15633265feac6394497fc8b9a776de584b9ce360fac65b3db5e895a2"
+  }
+}

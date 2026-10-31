@@ -1,0 +1,68 @@
+{
+  "status": "full_topic_candidate_with_disclosed_disagreements",
+  "project_version": "0.3.0",
+  "active_version": "0.3.0",
+  "report": "workspace/uk-electricity/20261031T091906-d13cddfc0136/report.pdf",
+  "run": "workspace/uk-electricity/20261031T091906-d13cddfc0136",
+  "pages": 15,
+  "coverage_items": 16,
+  "numeric_checks": 743,
+  "tests": {
+    "generic": 40,
+    "project": 29
+  },
+  "reference_comparison": {
+    "passed": 61,
+    "total": 63,
+    "disagreements": [
+      {
+        "kind": "fuel",
+        "region": "England",
+        "key": "coal",
+        "field": "growth",
+        "actual": -38.480512742307894,
+        "reference": -39,
+        "tolerance": 0.5,
+        "page": 3,
+        "passed": false
+      },
+      {
+        "kind": "fuel",
+        "region": "UK Total",
+        "key": "gas",
+        "field": "five_year_growth",
+        "actual": -22.539317626916677,
+        "reference": -29,
+        "tolerance": 0.5,
+        "page": 4,
+        "passed": false
+      }
+    ],
+    "file": "workspace/uk-electricity/20261031T091906-d13cddfc0136/full-reference-evaluation.json"
+  },
+  "visual_review": "workspace/uk-electricity/20261031T091906-d13cddfc0136/visual-review.json",
+  "benchmark": {
+    "file": "workspace/uk-electricity-benchmark-04/benchmark.json",
+    "medians_seconds": {
+      "cold": 1.188624665956013,
+      "warm": 0.4684284580289386,
+      "uncached": 1.1638554579694755
+    },
+    "warm_speedup": 2.484595967688997,
+    "excludes": [
+      "external evidence research/curation",
+      "initial implementation",
+      "visual and human review"
+    ]
+  },
+  "regression": "projects/uk-electricity/evals/regression-0.3.0.json",
+  "limitations": [
+    "Topic coverage does not establish full analyst equivalence or exhaustive claim reproduction",
+    "Source fuel-component and supply-balance disagreements remain disclosed",
+    "External context manually curated and year-bound; new periods need refreshed context and coverage contract",
+    "MPP map is a dated independent DUKES asset, not reconstructed from station-level data",
+    "Reference PDF already read; no blind holdout",
+    "Human business review pending"
+  ],
+  "previous_pilot": "projects/uk-electricity/evals/pilot-results-0.2.0.json"
+}

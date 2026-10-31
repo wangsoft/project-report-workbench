@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "failures": [],
+  "artifacts": {
+    "report.pdf": "1b6c7fcb123de3b3ffc41ca29017cf0315ca92731cea6c2caa697f93d6a41eda",
+    "report.md": "f68d7e0952bdeedce5d69832e2780ba41118502f1f7d00f82faeb0af3ccbbc17",
+    "evidence.json": "ab34f16365a74703d5b692d4c8354f28d799fe4dbfcc601248a685aac15570db",
+    "quality.json": "069207f60f3a6eb8e759d336196a2e7d7c29a4ef1eba36be7a1d72624d4c4b36",
+    "layout.json": "d020e6bfcb61f8b5ceb19019bf95084a70ec65fb3d8dd51d29d8d49a4913b43d",
+    "coverage.json": "76218f3dc44387cb744d4c91899d5a0003f273a712d31901269ad624aaa8b338",
+    "semantics.json": "e394a63d7eb2df555adc8710436569d3a77eddea435b7ed9d62dc46668a2886f",
+    "business-report.pdf": "236c23aa51249aaa7de2c65ff1d9f64a7b1efacde14f2c1baf4336f98862a3a3",
+    "audit-appendix.pdf": "903de643d394cfb3ea81e6267cd386853639373d47f09befbfe966d1d1096fdb"
+  },
+  "topic_coverage": "predeclared_sections_present",
+  "full_analyst_equivalence": "not_validated",
+  "source_reconciliation": "unresolved",
+  "visual_review": "pending",
+  "business_review": "development_evaluation_only",
+  "semantic_validation": "passed",
+  "delivery_scope": "descriptive analysis and cited external context; full replacement not yet established",
+  "delivery_decision": "automated_checks_passed_pending_visual"
+}

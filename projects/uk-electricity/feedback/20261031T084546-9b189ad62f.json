@@ -1,0 +1,14 @@
+{
+  "id": "20261031T084546-9b189ad62f",
+  "created_at": "2026-10-31T08:45:46.224114+00:00",
+  "project_id": "uk-electricity",
+  "run_dir": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T083918-5600b854b2a9",
+  "project_version": "0.1.0",
+  "category": "data",
+  "observation": "官方工作簿早期跨表总量冲突阻断了首轮报告。",
+  "proposed_action": "将报告限定最近五年，保留早期冲突明细；使用期小额差异显式披露，新增回归。",
+  "evidence_path": "quality.json",
+  "evidence_sha256": "049fc745aa428d064df851cc18e59981b056ca9fb9372a076062e3cc26725321",
+  "target_version": "0.2.0",
+  "status": "proposed"
+}

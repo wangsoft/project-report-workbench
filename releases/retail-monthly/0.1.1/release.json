@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "project_id": "retail-monthly",
+  "version": "0.1.1",
+  "status": "validated_for_scope",
+  "scope": "Automatic required-question repair; every declared period passed independent numeric oracle and question checks; visual/causal generalization not certified",
+  "created_at": "2026-10-31T10:41:01.657997+00:00",
+  "source_run": "/Users/leowang/projects/project-report-workbench/workspace/tuning/tune-20261031T104100-093718bb/candidate-results/holdout/runs/retail-monthly/20261031T104101-b37187a8bb3a",
+  "source_inputs": {
+    "/Users/leowang/projects/project-report-workbench/workspace/business-tuning-case/2026-04.csv": "a5dbd87c450a8969b9211c168491ecbf7a40b3ca374fb54379ac07a5320bc396"
+  },
+  "interpreter": [
+    "/Users/leowang/projects/project-report-workbench/.venv/bin/python",
+    "3.12.12 (main, Jan 15 2026, 09:09:06) [Clang 17.0.0 (clang-1700.6.3.2)]"
+  ],
+  "file_sha256": {
+    "evidence/acceptance.json": "bd78ba47050d9ce1e029d537759cfe98de4d22c2595dca53d7610048646a0635",
+    "project/project.yaml": "10a504b8f462a33e7b1eeab9ecd97b73756f1615714a7f437c901d90d202aa2a",
+    "runtime/config/requirements.txt": "69e13045fb1b2072a3b79f5b6313e7d44962f0d49ac36e111af82be3287f2f3c",
+    "runtime/scripts/auto_tune.py": "6fe85e975392a202bea1cee514fa1edf17ea901df5958e297ee95a9c3731345b",
+    "runtime/scripts/stage_cache.py": "2b5bb375d08b7617e5096b2e5d4278d362f29a93d9559c9f0be286d682ff181f",
+    "runtime/scripts/periodic_analysis.py": "a51b652e37a1b469140014ecaa2f4c65b46b1b74049914b0b6d8167d5bbaecf6",
+    "runtime/scripts/metric_math.py": "3ba2fdbcbfe6322da7274d35a69825cfa5a9e45a24ae8df998bfc7735a1fb57e",
+    "runtime/scripts/tuning_evaluation.py": "b5a5496462c222d8e2223864d323e06846d6e950731d8a19f6e19e0ed087f3df",
+    "runtime/scripts/onboard_project.py": "7b1d9c8ea5e29c87adb6ae86b0a7986181208e613efadd31417220df762e3963",
+    "runtime/scripts/project_manager.py": "12782af85fce6d823049778a079b0781e67cfbff7ea7c2ccc4c3685c61ef32b5",
+    "runtime/scripts/project_versions.py": "1515a294cac608bb945176682436e1a20e111971584dff90167fdba0b7039c1b",
+    "runtime/scripts/profile_table.py": "9124293eb6aa6bd3adfe083869eef3d30577e8bb185929bbf66a3a611dbb516b",
+    "runtime/scripts/benchmark_command.py": "4ed99188cf4c68cfa1bb228c61c713b5c42eefe072684a7353b02b8eaea93362",
+    "project/references/brief.json": "c9349a7fa5e190fff4bd165e4688e8c1fa7ca064081e171e00095f3dae01f5d3",
+    "project/scripts/periodic_analysis.py": "a51b652e37a1b469140014ecaa2f4c65b46b1b74049914b0b6d8167d5bbaecf6"
+  },
+  "limitation": "Scope is supplied by the maintainer; no automated human-quality certification. Inputs and full environment are not bundled."
+}

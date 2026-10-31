@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "failures": [],
+  "artifacts": {
+    "report.md": "785fc8c0f468465555ca392f8838c4d73e706edd4eb8028c9f89e4b2f2fecd9d",
+    "report.html": "49b7559190c6018eb2d6578788634c9ef6b5faca8085d8ef4f023a4cea2258ab",
+    "answers.json": "33489b6323798784ca9152b37b7534351352dc86793ee89d68b6f53472100b5d",
+    "evidence.json": "a363ee22325a32374d81a989c88ef09bf121cc8bfcb631d6e4fa7db3af2f82ac"
+  },
+  "scope": "All frozen numeric and required-question cases passed; not unrestricted analyst equivalence",
+  "evaluation_fingerprints": {
+    "/Users/leowang/projects/project-report-workbench/workspace/business-tuning-case/suite.json": "fb10c82658ede877a1c02c4337d792bb797314f5f06f720bd2f13ff4ad1f645f",
+    "/Users/leowang/projects/project-report-workbench/workspace/business-tuning-case/2026-02.csv": "2c8258ab2e86dc2faad99b9ade9d2395ee7d72452f4932f022e637ff687fe491",
+    "/Users/leowang/projects/project-report-workbench/workspace/business-tuning-case/2026-03.csv": "d274f9147fe5cddce1b703ae42174b86a3976daa00d209d27c6a418eb34c3cc8",
+    "/Users/leowang/projects/project-report-workbench/workspace/business-tuning-case/2026-04.csv": "a5dbd87c450a8969b9211c168491ecbf7a40b3ca374fb54379ac07a5320bc396"
+  }
+}

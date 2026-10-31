@@ -1,0 +1,242 @@
+{
+  "status": "passed",
+  "checks": 743,
+  "failures": [],
+  "scope": "calculation and lineage correctness; source disagreements disclosed, not resolved",
+  "visual_review": "pending",
+  "business_review": "pending",
+  "warnings": {
+    "excluded_historical_conflicts": [
+      {
+        "year": 2004,
+        "region": "UK Total",
+        "gap_gwh": 5370.945100000012
+      },
+      {
+        "year": 2004,
+        "region": "England",
+        "gap_gwh": 3070.2959000000264
+      },
+      {
+        "year": 2004,
+        "region": "Scotland",
+        "gap_gwh": 10.316599999998289
+      },
+      {
+        "year": 2004,
+        "region": "Wales",
+        "gap_gwh": 2322.4658999999956
+      },
+      {
+        "year": 2004,
+        "region": "Northern Ireland",
+        "gap_gwh": 11.5
+      },
+      {
+        "year": 2005,
+        "region": "UK Total",
+        "gap_gwh": 6088.433300000033
+      },
+      {
+        "year": 2005,
+        "region": "England",
+        "gap_gwh": 3606.210000000021
+      },
+      {
+        "year": 2005,
+        "region": "Scotland",
+        "gap_gwh": 327.5567999999985
+      },
+      {
+        "year": 2005,
+        "region": "Wales",
+        "gap_gwh": 2823.4799999999996
+      },
+      {
+        "year": 2005,
+        "region": "Northern Ireland",
+        "gap_gwh": 13.700000000000728
+      },
+      {
+        "year": 2006,
+        "region": "UK Total",
+        "gap_gwh": 6974.784600000014
+      },
+      {
+        "year": 2006,
+        "region": "England",
+        "gap_gwh": 3311.9198000000324
+      },
+      {
+        "year": 2006,
+        "region": "Scotland",
+        "gap_gwh": 424.8894
+      },
+      {
+        "year": 2006,
+        "region": "Wales",
+        "gap_gwh": 3269.8752999999997
+      },
+      {
+        "year": 2006,
+        "region": "Northern Ireland",
+        "gap_gwh": 31.899999999999636
+      },
+      {
+        "year": 2007,
+        "region": "UK Total",
+        "gap_gwh": 6393.273900000029
+      },
+      {
+        "year": 2007,
+        "region": "England",
+        "gap_gwh": 2815.4052000000374
+      },
+      {
+        "year": 2007,
+        "region": "Scotland",
+        "gap_gwh": 419.8322999999946
+      },
+      {
+        "year": 2007,
+        "region": "Wales",
+        "gap_gwh": 3187.7963999999993
+      },
+      {
+        "year": 2007,
+        "region": "Northern Ireland",
+        "gap_gwh": 29.76000000000022
+      },
+      {
+        "year": 2008,
+        "region": "UK Total",
+        "gap_gwh": 6356.114300000016
+      },
+      {
+        "year": 2008,
+        "region": "England",
+        "gap_gwh": 2580.619100000011
+      },
+      {
+        "year": 2008,
+        "region": "Scotland",
+        "gap_gwh": 331.19980000000214
+      },
+      {
+        "year": 2008,
+        "region": "Wales",
+        "gap_gwh": 3470.4257
+      },
+      {
+        "year": 2008,
+        "region": "Northern Ireland",
+        "gap_gwh": 26.130299999998897
+      },
+      {
+        "year": 2009,
+        "region": "UK Total",
+        "gap_gwh": 38.354899999976624
+      },
+      {
+        "year": 2009,
+        "region": "England",
+        "gap_gwh": 38.3920999999973
+      },
+      {
+        "year": 2009,
+        "region": "Scotland",
+        "gap_gwh": 0.0062000000034458935
+      },
+      {
+        "year": 2009,
+        "region": "Wales",
+        "gap_gwh": 0.017700000000331784
+      },
+      {
+        "year": 2009,
+        "region": "Northern Ireland",
+        "gap_gwh": 0.013500000000021828
+      },
+      {
+        "year": 2010,
+        "region": "UK Total",
+        "gap_gwh": 433.64280000003055
+      },
+      {
+        "year": 2010,
+        "region": "Scotland",
+        "gap_gwh": 82.22600000000239
+      }
+    ],
+    "active_small_differences": [
+      {
+        "year": 2022,
+        "region": "England",
+        "gap_gwh": 0.0013000000035390258
+      }
+    ]
+  },
+  "source_reconciliation": "unresolved",
+  "source_issues": [
+    {
+      "kind": "fossil_components",
+      "year": 2020,
+      "region": "Wales",
+      "gap_gwh": 1234.6169999999984
+    },
+    {
+      "kind": "fossil_components",
+      "year": 2020,
+      "region": "Northern Ireland",
+      "gap_gwh": 15.371100000000297
+    },
+    {
+      "kind": "fossil_components",
+      "year": 2020,
+      "region": "England",
+      "gap_gwh": -1249.9880999999878
+    },
+    {
+      "kind": "balance_residual",
+      "year": 2024,
+      "region": "UK Total",
+      "gap_gwh": 4011.574900000007
+    },
+    {
+      "kind": "public_auto_residual",
+      "year": 2024,
+      "region": "UK Total",
+      "gap_gwh": 2270.5013000000035
+    },
+    {
+      "kind": "balance_residual",
+      "year": 2024,
+      "region": "England",
+      "gap_gwh": 3265.188205045939
+    },
+    {
+      "kind": "public_auto_residual",
+      "year": 2024,
+      "region": "England",
+      "gap_gwh": 2270.5013000000326
+    },
+    {
+      "kind": "balance_residual",
+      "year": 2024,
+      "region": "Scotland",
+      "gap_gwh": -4.673327274853364
+    },
+    {
+      "kind": "balance_residual",
+      "year": 2024,
+      "region": "Wales",
+      "gap_gwh": 807.0366440655234
+    },
+    {
+      "kind": "balance_residual",
+      "year": 2024,
+      "region": "Northern Ireland",
+      "gap_gwh": -55.976621836548475
+    }
+  ]
+}

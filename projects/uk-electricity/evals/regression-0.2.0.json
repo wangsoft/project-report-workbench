@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "project_version": "0.2.0",
+  "release_manifest_sha256": "25790c3e14adf429a0b96d5d30d4cdbdba548a94ed9accb497202e79631dafbc",
+  "archived_tests": {
+    "command": "ELECTRICITY_FIXTURES=<fixture-dir> .venv/bin/python -m unittest discover -s releases/uk-electricity/0.2.0/project/tests -v",
+    "tests": 14,
+    "exit_code": 0
+  },
+  "generic_tests": 40,
+  "activation_replay": [
+    {
+      "version": "0.1.0",
+      "run": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T085511-685b1b0d7573",
+      "status": "passed"
+    },
+    {
+      "version": "0.2.0",
+      "run": "/Users/leowang/projects/project-report-workbench/workspace/uk-electricity/20261031T085512-e411ac1401bd",
+      "status": "passed"
+    }
+  ],
+  "benchmark": "workspace/uk-electricity-benchmark-02/benchmark.json"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "项目分析报告工作台"
+  short_description: "在同一技能中积累项目规则、模板与脚本，复用流水线生成周期报告"
+  default_prompt: "使用 $project-report-workbench，选择或建立项目配置，从历史数据与报告沉淀分析和视觉规则，复用脚本生成本期报告，并验证结果。"

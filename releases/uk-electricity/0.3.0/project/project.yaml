@@ -1,0 +1,132 @@
+schema_version: 1
+project_id: uk-electricity
+version: 0.3.0
+status: candidate
+inputs:
+  data: file
+  baseline: file
+  year: string
+  context: file
+  context_source: file
+  map: file
+resources:
+- references/contract.json
+- templates/style.json
+- references/project-spec.md
+- requirements.txt
+- scripts/normalize.py
+- scripts/compute.py
+- scripts/quality.py
+- scripts/report_canvas.py
+- references/coverage.json
+- scripts/render_report.py
+pipeline:
+- id: normalize
+  script: scripts/full_data.py
+  args:
+  - --data
+  - '{input:data}'
+  - --year
+  - '{input:year}'
+  - --out
+  - '{run_dir}/normalized.json'
+  outputs:
+  - normalized.json
+  cache:
+    inputs:
+    - data
+    - year
+    resources:
+    - scripts/normalize.py
+    artifacts: []
+    packages:
+    - openpyxl
+- id: compute
+  script: scripts/full_compute.py
+  args:
+  - --normalized
+  - '{run_dir}/normalized.json'
+  - --baseline
+  - '{input:baseline}'
+  - --out
+  - '{run_dir}/evidence.json'
+  - --context
+  - '{input:context}'
+  - --context-source
+  - '{input:context_source}'
+  - --map
+  - '{input:map}'
+  outputs:
+  - evidence.json
+  cache:
+    inputs:
+    - baseline
+    - context
+    - context_source
+    - map
+    resources:
+    - scripts/compute.py
+    - scripts/normalize.py
+    artifacts:
+    - normalized.json
+    packages: []
+- id: check
+  role: quality
+  script: scripts/full_quality.py
+  args:
+  - --normalized
+  - '{run_dir}/normalized.json'
+  - --evidence
+  - '{run_dir}/evidence.json'
+  - --contract
+  - '{project_dir}/references/contract.json'
+  - --baseline
+  - '{input:baseline}'
+  - --out
+  - '{run_dir}/quality.json'
+  - --context
+  - '{input:context}'
+  outputs:
+  - quality.json
+- id: render
+  script: scripts/full_report.py
+  args:
+  - --evidence
+  - '{run_dir}/evidence.json'
+  - --style
+  - '{project_dir}/templates/style.json'
+  - --out-dir
+  - '{run_dir}'
+  - --map
+  - '{input:map}'
+  - --coverage
+  - '{project_dir}/references/coverage.json'
+  outputs:
+  - report.pdf
+  - report.md
+  - layout.json
+  - coverage.json
+  cache:
+    inputs:
+    - map
+    resources:
+    - templates/style.json
+    - scripts/report_canvas.py
+    - references/coverage.json
+    artifacts:
+    - evidence.json
+    packages:
+    - reportlab
+    - Pillow
+- id: verify
+  role: quality
+  script: scripts/full_quality.py
+  args:
+  - --verify-dir
+  - '{run_dir}'
+  - --out
+  - '{run_dir}/acceptance.json'
+  - --coverage
+  - '{project_dir}/references/coverage.json'
+  outputs:
+  - acceptance.json

@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "page": "A4 portrait",
+  "font": "STSong-Light",
+  "ink": "#10233F",
+  "fossil": "#6068D8",
+  "nuclear": "#082554",
+  "renewables": "#CBD3EB",
+  "residual": "#A8ADB5",
+  "accent": "#315CB0",
+  "background": "#F1F4FA"
+}
