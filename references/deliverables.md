@@ -1,5 +1,7 @@
 # 单一 skill、多个项目与独立运行记录
 
+[English](deliverables.en.md) | 简体中文
+
 不生成新的 `SKILL.md`。本 skill 保留通用方法和执行入口，项目保存业务差异，运行目录保存当期事实。
 
 ```text

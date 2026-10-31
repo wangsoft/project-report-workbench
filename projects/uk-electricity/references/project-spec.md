@@ -1,5 +1,7 @@
 # 英国区域电力示范项目
 
+[English](project-spec.en.md) | 简体中文
+
 ## 范围与来源
 
 DESNZ Energy Trends 区域电力专题，2024 年发布版（数据截至 2023）用于规则/视觉学习，2025 年发布版（数据截至 2024）用于跨期重放。原文件与下载 URL、SHA-256 留在 `workspace/public-fixtures/uk-electricity/source-manifest.json`，不打包进通用 skill。官方汇总表不是逐电厂明细。检索时已看到两版摘要，本次不是盲测，不推断泛化能力或超越分析师。

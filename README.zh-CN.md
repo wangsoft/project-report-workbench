@@ -1,6 +1,6 @@
 # Project Report Workbench · 项目分析报告工作台
 
-[English](readme.md) | 简体中文
+[English](README.detailed.en.md) | 简体中文 | [简明首页 / Quick start](readme.md)
 
 > `workspace/` 中的原始材料和运行产物不随仓库分发；复跑下述示例前需准备对应输入文件。
 
@@ -197,6 +197,8 @@ project-report-workbench/
 本次是跨期重放，非严格盲测。新版覆盖官方各主题，计算部分之外的天气、政策与运营解释来自独立外部证据；并非所有细节和因果断言均已复现。人工业务评审、完整分析师式因果研究、PPTX 与大型数据性能尚未验证，不能据此承诺达到或超越分析师水平。
 
 ## 进一步阅读
+
+全部现行说明均提供中英文版本，见[双语文档索引](readme.md#documentation)。`releases/` 中已冻结的历史归档保持原样；JSON 验证记录和配置字段保留原始值。
 
 - [项目配置、运行与持续积累](references/project-workflow.md)
 - [数据处理规程](references/data-processing.md)

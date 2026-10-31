@@ -1,5 +1,7 @@
 # Repository Guidelines
 
+English | [简体中文](AGENTS.zh-CN.md)
+
 ## Project Structure & Module Organization
 
 This Python 3.10+ workbench builds evidence-backed periodic reports. Shared pipeline, caching, onboarding, and evaluation tools live in `scripts/`; generic tests live in `tests/`. Each `projects/<project-id>/` contains `project.yaml` and project-specific scripts, references, templates, tests, and evaluation records. Shared procedures live in `references/`, dependencies in `config/requirements.txt`, and agent entry instructions in `SKILL.md`. `workspace/` holds inputs and generated runs; `releases/` holds frozen versions. Keep business-specific logic within its project.
@@ -41,7 +43,7 @@ Use standard-library `unittest`, naming files `test_*.py` and methods `test_*`. 
 
 ## Commit & Pull Request Guidelines
 
-This checkout has no Git metadata, so historical commit conventions cannot be verified. Use concise imperative subjects describing the change. PR descriptions should explain the problem, affected projects, validation commands and results, and remaining limitations. Link relevant issues and include rendered examples for report-layout changes.
+Use concise imperative subjects describing the change; existing history uses prefixes such as `docs:` and `ci:`. PR descriptions should explain the problem, affected projects, validation commands and results, and remaining limitations. Link relevant issues and include rendered examples for report-layout changes.
 
 ## Data & Configuration Safety
 

@@ -11,7 +11,7 @@ Turn historical data, analytical methods, and report templates into reusable wor
 - Tracks sources, run logs, checkpoints, and cached outputs.
 - Validates improvements before promoting project versions.
 
-Scripts handle repeatable processing; an AI agent handles interpretation and exceptions using [SKILL.md](SKILL.md). Complex analysis and report formats require project-specific adapters.
+Scripts handle repeatable processing; an AI agent handles interpretation and exceptions using the [English skill guide](SKILL.en.md). Complex analysis and report formats require project-specific adapters.
 
 ## Quick start
 
@@ -35,7 +35,7 @@ For custom pipelines, start with an empty project configuration:
 .venv/bin/python scripts/project_manager.py init monthly-sales
 ```
 
-Add the project's scripts, rules, and templates before running it. See the [project workflow](references/project-workflow.md) for configuration and execution details.
+Add the project's scripts, rules, and templates before running it. See the [project workflow](references/project-workflow.en.md) for configuration and execution details.
 
 ## Repository layout
 
@@ -66,10 +66,28 @@ To publish a new version, update `VERSION`, add `release-notes/v<VERSION>.md`, a
 
 ## Documentation
 
-- [Detailed overview in Chinese](README.zh-CN.md)
-- [Project configuration and workflow](references/project-workflow.md)
-- [Versioning, feedback, and learning](references/project-lifecycle.md)
-- [Evaluation procedures](references/evaluation.md)
-- [Contributor guide](AGENTS.md)
+Current guides are available in English and Simplified Chinese. Each guide links to its counterpart. Frozen archives under `releases/` retain their original documents; machine-readable configuration and evaluation records keep their original values.
 
-Most detailed documentation is currently in Chinese.
+| Guide | English | 简体中文 |
+| --- | --- | --- |
+| Detailed overview | [English](README.detailed.en.md) | [中文](README.zh-CN.md) |
+| Agent workflow | [English](SKILL.en.md) | [中文](SKILL.md) |
+| Project configuration | [English](references/project-workflow.en.md) | [中文](references/project-workflow.md) |
+| Versions, feedback, and learning | [English](references/project-lifecycle.en.md) | [中文](references/project-lifecycle.md) |
+| Data processing | [English](references/data-processing.en.md) | [中文](references/data-processing.md) |
+| Metrics, evidence, and assumptions | [English](references/contracts.en.md) | [中文](references/contracts.md) |
+| Method selection | [English](references/methods.en.md) | [中文](references/methods.md) |
+| Analysis and narrative | [English](references/analysis-synthesis.en.md) | [中文](references/analysis-synthesis.md) |
+| Report reconstruction | [English](references/report-workflow.en.md) | [中文](references/report-workflow.md) |
+| Visual specifications and templates | [English](references/visual-reverse-engineering.en.md) | [中文](references/visual-reverse-engineering.md) |
+| Execution and performance | [English](references/execution-performance.en.md) | [中文](references/execution-performance.md) |
+| Deliverables | [English](references/deliverables.en.md) | [中文](references/deliverables.md) |
+| Evaluation | [English](references/evaluation.en.md) | [中文](references/evaluation.md) |
+| Sources and adaptations | [English](references/sources.en.md) | [中文](references/sources.md) |
+| UK electricity specification | [English](projects/uk-electricity/references/project-spec.en.md) | [中文](projects/uk-electricity/references/project-spec.md) |
+| 2024 report review | [English](projects/uk-electricity/evals/analyst-review-2024.en.md) | [中文](projects/uk-electricity/evals/analyst-review-2024.md) |
+| 2022 cross-period review | [English](projects/uk-electricity/evals/cross-period-review-2022.en.md) | [中文](projects/uk-electricity/evals/cross-period-review-2022.md) |
+| Contributor guide | [English](AGENTS.md) | [中文](AGENTS.zh-CN.md) |
+| v0.1.0 release notes | [English](release-notes/v0.1.0.md) | [中文](release-notes/v0.1.0.zh-CN.md) |
+
+Keep both language versions synchronized when updating documentation. Executable commands, configuration keys, metric IDs, and recorded results must retain the same meaning in both versions.
